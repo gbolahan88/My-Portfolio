@@ -7,8 +7,8 @@ function sendToWhatsapp() {
   let message = document.getElementById('message').value;
 
   var url = "https://wa.me/" + number + "?text="
-  + "*Name : *" +name+ "%0a"
-  + "*Email : *" +email+ "%0a"
+  + "*Name :* " +name+ "%0a"
+  + "*Email :* " +email+ "%0a"
   //+ "Subject : " +subject+ "%0a"
   + "*Message :* " +message+ "%0a%0a";
 
