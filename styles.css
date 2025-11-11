@@ -687,7 +687,7 @@ h3.my-profession {
     max-width: 100%;
   }
   .home .home-img {
-    display: block;
+    display: inline;
   }
 }
 @media (max-width: 767px) {
@@ -703,4 +703,5 @@ h3.my-profession {
     max-width: 100%;
   }
 }
+
 
